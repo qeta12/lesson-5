@@ -1,0 +1,83 @@
+body {
+position: relative;
+padding-top: 43px;
+}
+header {
+	background-color: lightblue;
+	padding: 20px 40px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+
+}
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 40px;
+}
+.logo img {
+	height: 40px;
+}
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+nav li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+nav li a {
+	font-size: 22px;
+}
+
+.container {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	position: relative;
+	background-color: lightgreen;
+}
+.box-wrapper {
+	display: inline-block;
+	vertical-align: top;
+	width: 350px;
+}
+.box-wrapper.box-1 {
+	margin-right: 100px;
+}
+.p-relative {
+	position: relative;
+	background-color: lightblue;
+	width: 400px;
+}
+.p-1 {
+	font-size: 24px;
+	color: green;
+	position: absolute;
+	bottom: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.image-1 {
+	width: 100%;
+/*	height: 400px;*/
+/*	border-radius: 10px;*/
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 20px;*/
+/*	border-radius: 50%;*/
+
+}
+.circle {
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	border-radius: 50%;
+}
+footer {
+	width: 100%;
+	padding: 40px;
+	background-color: lightgreen;
+}
